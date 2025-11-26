@@ -86,21 +86,6 @@ body {
 }
 
 /* ---------------------------------------------------- */
-/* ESTILOS DE LA BARRA SECUNDARIA (Breadcrumb) */
-/* ---------------------------------------------------- */
-.barra-nav-secundaria {
-    background-color: white;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.barra-nav-secundaria p {
-    margin: 0;
-    font-size: 14px;
-    color: #666;
-}
-
-/* ---------------------------------------------------- */
 /* ESTILOS DEL CONTENIDO ESPECÍFICO */
 /* ---------------------------------------------------- */
 /* (Mismos estilos para contenido y etiquetas que antes) */

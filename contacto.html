@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Academia Canina</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header class="barra-superior">
+        <div class="header-contenido">
+            <a href="index.html" class="logo">Academia Canina</a>
+            <nav class="nav-principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca.html">Acerca de</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="contenido-contacto">
+        <h1>Contáctanos</h1>
+        <p>Estamos aquí para ayudarte a ser el mejor cuidador de tu perro. ¡Pregúntanos lo que necesites!</p>
+
+        <form id="formularioContacto" class="formulario-academiacanina" action="#" method="POST">
+            
+            <div class="campo">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            </div>
+
+            <div class="campo">
+                <label for="asunto">Asunto:</label>
+                <select id="asunto" name="asunto" required>
+                    <option value="" disabled selected>Selecciona un tema</option>
+                    <option value="duda_raza">Duda sobre una raza específica</option>
+                    <option value="sugerencia">Sugerencia de contenido o tema</option>
+                    <option value="colaboracion">Colaboración o Publicidad</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="mensaje">Tu Mensaje/Consulta:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="6" required></textarea>
+            </div>
+
+            <div class="campo-legal">
+                <input type="checkbox" id="acepto" name="acepto" required>
+                <label for="acepto">Acepto la <a href="/politica-privacidad.html">Política de Privacidad</a>.</label>
+            </div>
+
+            <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+            
+        </form>
+    </main>
+
+    <script src="script.js"></script> 
+</body>
+</html>
