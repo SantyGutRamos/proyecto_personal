@@ -26,3 +26,28 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+document.getElementById("btnCalcular").addEventListener("click", function () {
+
+    const peso = parseFloat(document.getElementById("peso").value);
+    const actividad = parseFloat(document.getElementById("actividad").value);
+    const calorias = parseFloat(document.getElementById("calorias").value);
+
+    if (!peso || !actividad || !calorias) {
+        document.getElementById("resultado").innerHTML =
+            "❌ Por favor, completa todos los campos correctamente.";
+        return;
+    }
+
+    // Fórmula RER
+    const RER = 70 * Math.pow(peso, 0.75);
+
+    // MER según actividad
+    const MER = RER * actividad;
+
+    // Convertir calorías → gramos
+    const gramos = MER / calorias;
+
+    document.getElementById("resultado").innerHTML =
+        `🥕 Tu perro necesita aproximadamente <br>
+         <strong>${gramos.toFixed(0)} gramos</strong> de alimento por día.`;
+});
