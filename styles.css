@@ -404,4 +404,10 @@ h1, h2, h3 {
 .box-info ul {
     padding-left: 18px;
 }
-
+.imagen-perro {
+    
+   display: block;
+    margin: 20px auto; 
+    width: 500px;   
+    height: auto;
+}
