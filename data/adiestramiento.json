@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "raza": "Labrador Retriever",
+        "nivel": "Básico",
+        "entorno_ideal": "Ciudad o campo",
+        "ejercicios": "Obediencia básica, buscar objetos, juegos de olfato",
+        "duracion_diaria": "45 a 90 minutos",
+        "frecuencia": "5 a 7 días por semana",
+        "notas": "Evitar exceso de comida durante el entrenamiento"
+    },
+    {
+        "id": 2,
+        "raza": "Pastor Alemán",
+        "nivel": "Intermedio",
+        "entorno_ideal": "Espacios amplios",
+        "ejercicios": "Obediencia avanzada, protección, trabajo mental",
+        "duracion_diaria": "60 a 120 minutos",
+        "frecuencia": "6 a 7 días por semana",
+        "notas": "Requiere estimulación mental constante"
+    },
+    {
+        "id": 3,
+        "raza": "Pug",
+        "nivel": "Básico",
+        "entorno_ideal": "Departamento o casa",
+        "ejercicios": "Órdenes simples, socialización",
+        "duracion_diaria": "20 a 30 minutos",
+        "frecuencia": "4 a 5 días por semana",
+        "notas": "Evitar ejercicios intensos por problemas respiratorios"
+    }
+]

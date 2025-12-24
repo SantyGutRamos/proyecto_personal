@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Labrador Retriever | Academia Canina</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
 
 <header class="barra-superior">
     <div class="header-contenido">
-        <a href="index.html" class="logo">Academia Canina</a>
+        <!-- LOGO CORREGIDO -->
+        <a href="../index.html" class="logo">Academia Canina</a>
 
         <nav class="nav-principal">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="razas.html">Razas</a></li>
-                <li><a href="alimentacion.html">Alimentación</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../alimentacion.html">Alimentación</a></li>
+                <li><a href="../entrenamiento.html">Entrenamientos</a></li>
+                <li><a href="../cuidados.html">Cuidados</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </div>
@@ -28,7 +30,11 @@
 <section class="seccion contenedor">
 
     <h1 class="titulo-perro">Labrador Retriever</h1>
-    <img src="Almacen/imagen-logo5.jpeg" alt="Labrador Retriever" class="imagen-perro">
+
+    <img src="../Almacen/imagen-logo5.jpeg" alt="Labrador Retriever" class="imagen-perro">
+
+    <!-- ADIESTRAMIENTO (BIEN UBICADO) -->
+    <div id="adiestramiento"></div>
 
     <!-- Descripción general -->
     <div class="box-info">
@@ -88,20 +94,20 @@
         </ul>
     </div>
 
-    <!-- Dónde es más óptimo adoptarlo -->
+    <!-- Entorno -->
     <div class="box-info">
         <h3>Entorno Ideal y Tipo de Familia</h3>
         <p>
             Las características del Labrador lo convierten en un perro extremadamente adaptable, pero hay entornos
-            donde puede tener una mejor calidad de vida según su necesidades naturales.
+            donde puede tener una mejor calidad de vida según sus necesidades naturales.
         </p>
 
         <ul>
             <li><strong>Hogar con espacio:</strong> Ideal si hay patio o zonas para jugar.</li>
-            <li><strong>Familias activas:</strong> Perfecto para personas que caminan, corren o hacen actividades al aire libre.</li>
-            <li><strong>Ambiente urbano:</strong> Puede vivir en departamento siempre que tenga ejercicio diario.</li>
-            <li><strong>Ambiente rural o campo:</strong> Excelente opción por su energía moderada y amor por correr.</li>
-            <li><strong>Perro viajero:</strong> Se adapta muy bien a viajes, paseos largos y cambios de entorno.</li>
+            <li><strong>Familias activas:</strong> Perfecto para personas que caminan o hacen ejercicio.</li>
+            <li><strong>Ambiente urbano:</strong> Puede vivir en departamento con paseos diarios.</li>
+            <li><strong>Ambiente rural:</strong> Excelente opción para campo y aire libre.</li>
+            <li><strong>Perro viajero:</strong> Se adapta muy bien a viajes.</li>
         </ul>
     </div>
 
@@ -110,11 +116,10 @@
         <h3>Cuidados Específicos del Labrador</h3>
         <ul>
             <li>Ejercicio diario de 45–90 minutos.</li>
-            <li>Cepillado 2–3 veces por semana (suelta bastante pelo).</li>
-            <li>Control de peso: tiende a engordar fácilmente.</li>
-            <li>Estimulación mental: juegos de olfato, trabajo de búsqueda.</li>
-            <li>Chequeos regulares por predisposición a displasia de cadera.</li>
-            <li>Evitar exceso de comida o premios.</li>
+            <li>Cepillado 2–3 veces por semana.</li>
+            <li>Control de peso (tiende a engordar).</li>
+            <li>Estimulación mental constante.</li>
+            <li>Chequeos veterinarios regulares.</li>
         </ul>
     </div>
 
@@ -122,13 +127,17 @@
     <div class="box-info">
         <h3>Alimentación Recomendada</h3>
         <p>
-            El Labrador necesita una dieta equilibrada debido a su tendencia a ganar peso. Se recomienda usar 
-            alimentos altos en proteínas y bajos en grasas, y medir las porciones con base en su peso y actividad.
-            Puedes usar la <a href="alimentacion.html">calculadora de alimento</a> para obtener una dosis precisa.
+            El Labrador necesita una dieta equilibrada. Se recomienda medir las porciones según peso y actividad.
+            Puedes usar la <a href="../alimentacion.html">calculadora de alimento</a> para obtener una dosis precisa.
         </p>
     </div>
 
 </section>
+
+<script src="../script.js"></script>
+<script>
+    cargarAdiestramiento("Labrador Retriever");
+</script>
 
 <footer class="footer">
     <p>&copy; 2025 Academia Canina — Información para el bienestar de tu mascota</p>

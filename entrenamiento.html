@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiestramiento Canino | Academia Canina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="barra-superior">
+    <div class="header-contenido">
+        <a href="index.html" class="logo">Academia Canina</a>
+
+        <nav class="nav-principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="alimentacion.html">Alimentación</a></li>
+                <li><a href="entrenamiento.html"class="activo">Entrenamientos</a></li>
+                <li><a href="cuidados.html">Cuidados</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="seccion contenedor">
+
+    <h1 class="titulo-perro">Adiestramiento Canino</h1>
+
+    <div class="box-info">
+        <h3>¿Por qué el adiestramiento debe ser personalizado?</h3>
+        <p>
+            Cada raza posee características físicas, mentales y emocionales distintas.
+            Un método de adiestramiento que funciona con un Labrador puede no ser efectivo
+            para un Husky o un Bulldog.
+        </p>
+    </div>
+
+    <div class="box-info">
+        <h3>Métodos de Adiestramiento Recomendados</h3>
+        <ul>
+            <li><strong>Refuerzo positivo:</strong> Premios y elogios.</li>
+            <li><strong>Entrenamiento progresivo:</strong> Sesiones cortas.</li>
+            <li><strong>Estimulación mental:</strong> Juegos y retos.</li>
+            <li><strong>Socialización:</strong> Exposición gradual.</li>
+        </ul>
+    </div>
+
+    <div class="box-info">
+        <h3>Sistema de Adiestramiento Personalizado</h3>
+
+        <div class="calculadora">
+            <label for="raza">Raza del perro:</label>
+            <select id="raza">
+                <option value="Labrador">Labrador Retriever</option>
+                <option value="Pastor Aleman">Pastor Alemán</option>
+                <option value="Husky">Husky Siberiano</option>
+                <option value="Bulldog">Bulldog</option>
+                <option value="Pug">Pug</option>
+            </select>
+
+            <label for="edad">Edad (años):</label>
+            <input type="number" id="edad" min="0" step="0.5">
+
+            <label for="nivel">Nivel de energía:</label>
+            <select id="nivel">
+                <option value="bajo">Bajo</option>
+                <option value="medio">Medio</option>
+                <option value="alto">Alto</option>
+            </select>
+
+            <button onclick="consultarAdiestramiento()">
+                Obtener recomendación
+            </button>
+
+            <div class="resultado" id="resultado-adiestramiento"></div>
+        </div>
+    </div>
+
+</section>
+
+<footer class="footer">
+    <p>&copy; 2025 Academia Canina — Información para el bienestar de tu mascota</p>
+</footer>
+
+<!-- SCRIPT SIEMPRE AL FINAL -->
+<script src="script.js"></script>
+
+</body>
+</html>
