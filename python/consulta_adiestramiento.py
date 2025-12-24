@@ -34,7 +34,7 @@ if resultado:
     print(f"Frecuencia: {resultado['frecuencia']}")
     print(f"Notas: {resultado['notas']}")
 else:
-    print("❌ No se encontró información para esa raza.")
+    print(" No se encontró información para esa raza.")
 
 # Cerrar conexión
 cursor.close()
